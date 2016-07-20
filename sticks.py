@@ -41,6 +41,7 @@ def choose_opponent():
         return ['Human', 'Computer']
 
 def main():
+    print("Welcome to the game of sticks! Don't be the one to pick up the last stick")
     counter = choose_sticks()
     opponent = choose_opponent()
     print("There are {} sticks on the board".format(counter))
